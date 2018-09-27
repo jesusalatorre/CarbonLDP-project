@@ -23,6 +23,30 @@ const ModalContent = ({ movie }) => {
                 <h1>{movie.name}</h1>
                 <img src={movie.image} className="image" />
                 <p>{movie.description}</p>
+
+                <br />
+                <br />
+
+                <h3>Evalúa esta película</h3>
+
+                <br />
+
+                <button>Vi esta película</button>
+
+                <p>¿Te gusto esta película?</p>
+                <button>Sí</button>
+                <button>No</button>
+
+                <p>¿A qué hora viste esta película?</p>
+                <button>Mañana</button>
+                <button>Tarde</button>
+                <button>Noche</button>
+
+                <p>¿Con quien viste la película?</p>
+                <button>Solo</button>
+                <button>Hijos</button>
+                <button>Hermanos</button>
+                <button>Pareja</button>
             </div>
         );
     } else {

@@ -4,7 +4,7 @@ import './../../../styles/elements/loading.css'
 
 const Loading = () => (
     <div className='loading'>
-        <Spinner name='pacman' color="#4b7cf5"/>
+        <Spinner name="line-scale" color="#4b7cf5"/>
     </div>
 )
 

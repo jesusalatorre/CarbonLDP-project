@@ -31,6 +31,6 @@ let movieExamples = [
 export function getMovies() {
     return new Promise(
         function (resolve, reject) {
-            setTimeout(() => resolve(movieExamples), 3000);
+            setTimeout(() => resolve(movieExamples), 6000);
         });
 }
